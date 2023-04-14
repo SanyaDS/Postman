@@ -1,0 +1,234 @@
+{
+	"info": {
+		"_postman_id": "1f650fd8-c230-4785-814d-1cb2d69077d8",
+		"name": "Homework_1_33_group",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "EP_1_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{http}}/get_method?name=Sanya&age=31",
+					"host": [
+						"{{http}}"
+					],
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Sanya"
+						},
+						{
+							"key": "age",
+							"value": "31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_1_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Sanya",
+							"type": "default"
+						},
+						{
+							"key": "age",
+							"value": "31",
+							"type": "default"
+						},
+						{
+							"key": "salary",
+							"value": "1800",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{http}}/user_info_3",
+					"host": [
+						"{{http}}"
+					],
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_1_3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{http}}/object_info_1?name=Sanya&age=31&weight=95",
+					"host": [
+						"{{http}}"
+					],
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Sanya"
+						},
+						{
+							"key": "age",
+							"value": "31"
+						},
+						{
+							"key": "weight",
+							"value": "95"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_1_4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{http}}/object_info_2?name=Sanya&age=31&salary=1800",
+					"host": [
+						"{{http}}"
+					],
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Sanya"
+						},
+						{
+							"key": "age",
+							"value": "31"
+						},
+						{
+							"key": "salary",
+							"value": "1800"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_1_5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{http}}/object_info_3?name=Sanya&age=31&salary=1800",
+					"host": [
+						"{{http}}"
+					],
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Sanya"
+						},
+						{
+							"key": "age",
+							"value": "31"
+						},
+						{
+							"key": "salary",
+							"value": "1800"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_1_6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{http}}/object_info_4?name=Sanya&age=31&salary=1800",
+					"host": [
+						"{{http}}"
+					],
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Sanya"
+						},
+						{
+							"key": "age",
+							"value": "31"
+						},
+						{
+							"key": "salary",
+							"value": "1800"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_1_7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Sanya",
+							"type": "default"
+						},
+						{
+							"key": "age",
+							"value": "31",
+							"type": "default"
+						},
+						{
+							"key": "salary",
+							"value": "1800",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{http}}/user_info_2",
+					"host": [
+						"{{http}}"
+					],
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
